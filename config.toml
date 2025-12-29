@@ -1,0 +1,47 @@
+# The URL the site will be built for
+base_url = "https://eliasely.dev"
+title = "Notes on low-level things"
+author = "Elias El Yandouzi"
+
+# Define theme used for the website
+theme = "radion"
+
+taxonomies = [
+    # You can enable/disable RSS
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Blog's title
+radion_title = "Notes on low-level things"
+
+# List of buttons in the top bar 
+radion_menu = [
+    {url = "$BASE_URL/", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+]
+
+# Github button
+github = "https://github.com/eliasely"
+
+# Enable copy to clipboard for codeblocks
+codeblock = true
+
+# Display search bar
+enable_search = true
+
+# Define theme mode {auto, toggle, light, dark}
+theme = "auto"
