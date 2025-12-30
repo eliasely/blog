@@ -45,3 +45,8 @@ enable_search = true
 
 # Define theme mode {auto, toggle, light, dark}
 theme = "auto"
+
+giscus_repo = "eliasely/blog"
+giscus_repo_id = "R_kgDOQwz7gA"
+giscus_data_category = "Announcements"
+giscus_data_category_id = "DIC_kwDOQwz7gM4C0Xyb"
